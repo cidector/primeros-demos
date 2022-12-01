@@ -1,7 +1,7 @@
 terraform {
     backend "gcs" {
         #sustituir el nombre del bucket.
-        backet = "{NOMBRE_BUCKET}"
+        backet = "demo-00-a123f"
         prefix ="terraform/state/example-00/"
     }
 }
