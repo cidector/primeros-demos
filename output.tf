@@ -5,4 +5,4 @@ output "google_storage_bucket" {
 
 output "google_compute_instance" {
     description = "compute instance name"
-    
+    value = google_compute_instance.default.name
