@@ -9,3 +9,4 @@ output "google_compute_instance" {
 }
 
 output "google_compute_instance_ip{
+    description = "compute instance network ip"
